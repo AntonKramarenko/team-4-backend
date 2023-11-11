@@ -2,11 +2,11 @@
   "name": "nodejscats",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "dev": "nodemon node index.js",
-    "start": "node index.js",
-    "build": "npm install node index.js"
+    "dev": "nodemon node index.ts",
+    "start": "node index.ts",
+    "build": "npm install && tsc"
   },
   "keywords": [],
   "author": "",
@@ -17,10 +17,13 @@
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "glob": "^10.3.10",
+    "index.js": "^0.0.3",
     "mongodb": "^6.2.0",
     "mongoose": "^6.5.2",
+    "node": "^21.1.0",
     "nodemon": "^2.0.19",
     "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.0"
+    "swagger-ui-express": "^5.0.0",
+    "typescript": "^5.2.2"
   }
 }
